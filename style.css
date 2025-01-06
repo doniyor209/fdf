@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(./img/Rectangle\ 26\ \(1\).png);
+    padding: 80px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+ 
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.logo i {
+    color: white;
+    gap: 10px;
+    font-size: 25px;
+}
+
+header h3 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 67.2px;
+    text-align: center;
+    color: white;
+}
+
+.card1 {
+    width: 390px;
+    height: 512px;
+    top: 343px;
+    left: 312px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #F7ECE1;
+    margin-top: 80px;
+}
+
+.card1 img {
+    margin-top: 25px;   
+    margin-left: 40px;
+}
+
+.card1 p {
+    color: grey;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.btn {
+    width: Hug (137px)px;
+    height: Hug (45px)px;
+    top: 780px;
+    left: 352px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    background: #8D86C9;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25.2px;
+    text-align: center;
+    color: white;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.card1 h5 {
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 29.4px;
+    color: #333333;
+    margin-top: 15px;
+    margin-left: 40px;   
+}
+.card-ota{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+footer p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.6px;
+    color: grey;
+}
+footer{
+    background: #F7ECE1;
+    padding: 30px 0;
+}
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 20px;
+}
+
+footer .logo i {
+    color: #8D86C9;
+    gap: 10px;
+    font-size: 25px;
+}
